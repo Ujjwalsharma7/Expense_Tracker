@@ -1,9 +1,10 @@
 import Expenseitem from './Expenseitem'
+import './expense.css'
 
 function Expense(props) {
 
     return (
-        <div>
+        <div className='expense'>
         <Expenseitem
             title={props.items[0].title}
             amount={props.items[0].amount}
