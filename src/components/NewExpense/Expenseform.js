@@ -1,4 +1,4 @@
-
+import './Expenseform.css'
 
 const Expenseform = () =>{
     return <form>
