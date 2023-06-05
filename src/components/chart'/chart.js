@@ -1,5 +1,6 @@
 
-
+import ChartBar from "./chartBar";
+import './chart.js'
 const Chart = (props) =>{
 return (
 <div>
